@@ -244,12 +244,16 @@ img {
 }
 .nav__logo {
   color: white;
+  font-size: 25px;
 }
 .nav__toggle {
-  color: white;
-  font-size: 1.5rem;
   cursor: pointer;
   margin-right: 20px;
+  border: 3px solid var(--secondary-color);
+  padding: px;
+}
+.bx-menu{
+  font-size: 35px;
 }
 /* .l-main{
   background-color: black;
@@ -443,7 +447,7 @@ background-color: var(--secondary-color);
 
 
 .footer {
-  background-color: var(--first-color);
+  background-color:var(--first-color);
   color: var(--secondary-color);
   text-align: center;
   font-weight: var(--font-semi);
